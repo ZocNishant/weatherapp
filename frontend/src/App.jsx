@@ -35,6 +35,9 @@ const App = () => {
     }
   };
 
+  const hourForcast = () => {};
+  const dayForcast = () => {};
+
   const savewWeatherData = async (data) => {
     try {
       const response = await axios.post(`http://localhost:8888/api/weather`, {
